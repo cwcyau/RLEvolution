@@ -1,34 +1,35 @@
 # RLEvolution 
 
-This repository provides code
+This repository provides code (under an MIT Licence) for the paper entitled: "RLevolution: Unravelling the history of genomic instability through deep reinforcement learning" by Yun Feng and Christopher Yau from the University of Oxford.
 
-## Training RLEvolution model:
+There are two sets of files for training and testing of model.
 
-1. Model.py
+## Training:
 
-It contains the architecture of the whole Q-learning mode and reward function.
+1. Train/Model.py
 
-2. TrainingData.py
+This file contains the architecture of the whole Q-learning model and reward function.
+
+2. Train/TrainingData.py
  
-It contains the functions for sampling the states and actions used for training.
+This file contains the functions for sampling the states and actions used for training.
 
-3. Main_Train.py
+3. Train/Main_Train.py
  
-The main function used for training.
+This file contains the main function used for training.
 
 ## Test model:
 
-1. ExtractTrajectory.py
+1. Test/ExtractTrajectory.py
 
-It contains the deconvolution for copy number history by RLEvolution as well as two heuristic 
-methods.
+This file contains the deconvolution for copy number history by RLEvolution as well as two heuristic methods.
 
-2. SyntheticExperiments.py
+2. Test/SyntheticExperiments.py
 
-It contains the simulation of synthetic data.
+This contains the code for the simulation of synthetic data.
 
-3. RealDataExperiments.py
+3. Test/RealDataExperiments.py
 
+This contains the code to reproduce the deconvolution of the TCGA data.
 
-It contains the deconvolution for TCGA data if the data file is given.
 

@@ -1,5 +1,7 @@
 # RLEvolution 
 
+This repository provides code
+
 ## Training RLEvolution model:
 
 1. Model.py
@@ -29,3 +31,4 @@ It contains the simulation of synthetic data.
 
 
 It contains the deconvolution for TCGA data if the data file is given.
+
